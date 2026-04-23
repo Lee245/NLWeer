@@ -112,7 +112,7 @@ class KnmiTextFragment : Fragment() {
 
                     // The mid term report
                     if (index == 1) {
-                        group.select("div.col-sm-12.col-md-7").forEach { element ->
+                        group.select("div.col-sm-12.col-md-10").forEach { element ->
                             element.select("p").forEach { paragraph ->
                                 contents[1] += paragraph.text() + "\n\n"
                             }
